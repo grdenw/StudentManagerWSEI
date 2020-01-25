@@ -1,0 +1,251 @@
+### YamlMime:ManagedReference
+items:
+- uid: StudentManager.Core.Models.Student
+  commentId: T:StudentManager.Core.Models.Student
+  id: Student
+  parent: StudentManager.Core.Models
+  children:
+  - StudentManager.Core.Models.Student.#ctor(System.Int32,System.String,System.String,System.Int32)
+  - StudentManager.Core.Models.Student.Age
+  - StudentManager.Core.Models.Student.Id
+  - StudentManager.Core.Models.Student.Name
+  - StudentManager.Core.Models.Student.Surname
+  langs:
+  - csharp
+  - vb
+  name: Student
+  nameWithType: Student
+  fullName: StudentManager.Core.Models.Student
+  type: Class
+  source:
+    remote:
+      path: C:/Users/w.grden.adm/source/repos/StudentManager/StudentManager.Core/Models/Student.cs
+    id: Student
+    path: Models/Student.cs
+    startLine: 2
+  assemblies:
+  - StudentManager.Core
+  namespace: StudentManager.Core.Models
+  syntax:
+    content: 'public class Student : object'
+    content.vb: >-
+      Public Class Student
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: StudentManager.Core.Models.Student.#ctor(System.Int32,System.String,System.String,System.Int32)
+  commentId: M:StudentManager.Core.Models.Student.#ctor(System.Int32,System.String,System.String,System.Int32)
+  id: '#ctor(System.Int32,System.String,System.String,System.Int32)'
+  parent: StudentManager.Core.Models.Student
+  langs:
+  - csharp
+  - vb
+  name: Student(Int32, String, String, Int32)
+  nameWithType: Student.Student(Int32, String, String, Int32)
+  fullName: StudentManager.Core.Models.Student.Student(System.Int32, System.String, System.String, System.Int32)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Users/w.grden.adm/source/repos/StudentManager/StudentManager.Core/Models/Student.cs
+    id: .ctor
+    path: Models/Student.cs
+    startLine: 4
+  assemblies:
+  - StudentManager.Core
+  namespace: StudentManager.Core.Models
+  syntax:
+    content: public Student(int id, string name, string surname, int age)
+    parameters:
+    - id: id
+      type: System.Int32
+    - id: name
+      type: System.String
+    - id: surname
+      type: System.String
+    - id: age
+      type: System.Int32
+    content.vb: Public Sub New(id As Integer, name As String, surname As String, age As Integer)
+  overload: StudentManager.Core.Models.Student.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StudentManager.Core.Models.Student.Id
+  commentId: P:StudentManager.Core.Models.Student.Id
+  id: Id
+  parent: StudentManager.Core.Models.Student
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: Student.Id
+  fullName: StudentManager.Core.Models.Student.Id
+  type: Property
+  source:
+    remote:
+      path: C:/Users/w.grden.adm/source/repos/StudentManager/StudentManager.Core/Models/Student.cs
+    id: Id
+    path: Models/Student.cs
+    startLine: 12
+  assemblies:
+  - StudentManager.Core
+  namespace: StudentManager.Core.Models
+  syntax:
+    content: public int Id { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Id As Integer
+  overload: StudentManager.Core.Models.Student.Id*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StudentManager.Core.Models.Student.Name
+  commentId: P:StudentManager.Core.Models.Student.Name
+  id: Name
+  parent: StudentManager.Core.Models.Student
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Student.Name
+  fullName: StudentManager.Core.Models.Student.Name
+  type: Property
+  source:
+    remote:
+      path: C:/Users/w.grden.adm/source/repos/StudentManager/StudentManager.Core/Models/Student.cs
+    id: Name
+    path: Models/Student.cs
+    startLine: 13
+  assemblies:
+  - StudentManager.Core
+  namespace: StudentManager.Core.Models
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: StudentManager.Core.Models.Student.Name*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StudentManager.Core.Models.Student.Surname
+  commentId: P:StudentManager.Core.Models.Student.Surname
+  id: Surname
+  parent: StudentManager.Core.Models.Student
+  langs:
+  - csharp
+  - vb
+  name: Surname
+  nameWithType: Student.Surname
+  fullName: StudentManager.Core.Models.Student.Surname
+  type: Property
+  source:
+    remote:
+      path: C:/Users/w.grden.adm/source/repos/StudentManager/StudentManager.Core/Models/Student.cs
+    id: Surname
+    path: Models/Student.cs
+    startLine: 14
+  assemblies:
+  - StudentManager.Core
+  namespace: StudentManager.Core.Models
+  syntax:
+    content: public string Surname { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Surname As String
+  overload: StudentManager.Core.Models.Student.Surname*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StudentManager.Core.Models.Student.Age
+  commentId: P:StudentManager.Core.Models.Student.Age
+  id: Age
+  parent: StudentManager.Core.Models.Student
+  langs:
+  - csharp
+  - vb
+  name: Age
+  nameWithType: Student.Age
+  fullName: StudentManager.Core.Models.Student.Age
+  type: Property
+  source:
+    remote:
+      path: C:/Users/w.grden.adm/source/repos/StudentManager/StudentManager.Core/Models/Student.cs
+    id: Age
+    path: Models/Student.cs
+    startLine: 15
+  assemblies:
+  - StudentManager.Core
+  namespace: StudentManager.Core.Models
+  syntax:
+    content: public int Age { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Age As Integer
+  overload: StudentManager.Core.Models.Student.Age*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: StudentManager.Core.Models
+  commentId: N:StudentManager.Core.Models
+  name: StudentManager.Core.Models
+  nameWithType: StudentManager.Core.Models
+  fullName: StudentManager.Core.Models
+- uid: StudentManager.Core.Models.Student.#ctor*
+  commentId: Overload:StudentManager.Core.Models.Student.#ctor
+  name: Student
+  nameWithType: Student.Student
+  fullName: StudentManager.Core.Models.Student.Student
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: StudentManager.Core.Models.Student.Id*
+  commentId: Overload:StudentManager.Core.Models.Student.Id
+  name: Id
+  nameWithType: Student.Id
+  fullName: StudentManager.Core.Models.Student.Id
+- uid: StudentManager.Core.Models.Student.Name*
+  commentId: Overload:StudentManager.Core.Models.Student.Name
+  name: Name
+  nameWithType: Student.Name
+  fullName: StudentManager.Core.Models.Student.Name
+- uid: StudentManager.Core.Models.Student.Surname*
+  commentId: Overload:StudentManager.Core.Models.Student.Surname
+  name: Surname
+  nameWithType: Student.Surname
+  fullName: StudentManager.Core.Models.Student.Surname
+- uid: StudentManager.Core.Models.Student.Age*
+  commentId: Overload:StudentManager.Core.Models.Student.Age
+  name: Age
+  nameWithType: Student.Age
+  fullName: StudentManager.Core.Models.Student.Age

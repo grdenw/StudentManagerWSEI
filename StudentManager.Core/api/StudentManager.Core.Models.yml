@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: StudentManager.Core.Models
+  commentId: N:StudentManager.Core.Models
+  id: StudentManager.Core.Models
+  children:
+  - StudentManager.Core.Models.Student
+  langs:
+  - csharp
+  - vb
+  name: StudentManager.Core.Models
+  nameWithType: StudentManager.Core.Models
+  fullName: StudentManager.Core.Models
+  type: Namespace
+  assemblies:
+  - StudentManager.Core
+references:
+- uid: StudentManager.Core.Models.Student
+  commentId: T:StudentManager.Core.Models.Student
+  parent: StudentManager.Core.Models
+  name: Student
+  nameWithType: Student
+  fullName: StudentManager.Core.Models.Student
+- uid: StudentManager.Core.Models
+  commentId: N:StudentManager.Core.Models
+  name: StudentManager.Core.Models
+  nameWithType: StudentManager.Core.Models
+  fullName: StudentManager.Core.Models

@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: StudentManager.Core.Repositories.Abstractions
+  commentId: N:StudentManager.Core.Repositories.Abstractions
+  id: StudentManager.Core.Repositories.Abstractions
+  children:
+  - StudentManager.Core.Repositories.Abstractions.IStudentRepository
+  langs:
+  - csharp
+  - vb
+  name: StudentManager.Core.Repositories.Abstractions
+  nameWithType: StudentManager.Core.Repositories.Abstractions
+  fullName: StudentManager.Core.Repositories.Abstractions
+  type: Namespace
+  assemblies:
+  - StudentManager.Core
+references:
+- uid: StudentManager.Core.Repositories.Abstractions.IStudentRepository
+  commentId: T:StudentManager.Core.Repositories.Abstractions.IStudentRepository
+  parent: StudentManager.Core.Repositories.Abstractions
+  name: IStudentRepository
+  nameWithType: IStudentRepository
+  fullName: StudentManager.Core.Repositories.Abstractions.IStudentRepository
+- uid: StudentManager.Core.Repositories.Abstractions
+  commentId: N:StudentManager.Core.Repositories.Abstractions
+  name: StudentManager.Core.Repositories.Abstractions
+  nameWithType: StudentManager.Core.Repositories.Abstractions
+  fullName: StudentManager.Core.Repositories.Abstractions

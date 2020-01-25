@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: StudentManager.Core.Repositories.Implementations
+  commentId: N:StudentManager.Core.Repositories.Implementations
+  id: StudentManager.Core.Repositories.Implementations
+  children:
+  - StudentManager.Core.Repositories.Implementations.StudentCsvRepository
+  langs:
+  - csharp
+  - vb
+  name: StudentManager.Core.Repositories.Implementations
+  nameWithType: StudentManager.Core.Repositories.Implementations
+  fullName: StudentManager.Core.Repositories.Implementations
+  type: Namespace
+  assemblies:
+  - StudentManager.Core
+references:
+- uid: StudentManager.Core.Repositories.Implementations.StudentCsvRepository
+  commentId: T:StudentManager.Core.Repositories.Implementations.StudentCsvRepository
+  name: StudentCsvRepository
+  nameWithType: StudentCsvRepository
+  fullName: StudentManager.Core.Repositories.Implementations.StudentCsvRepository

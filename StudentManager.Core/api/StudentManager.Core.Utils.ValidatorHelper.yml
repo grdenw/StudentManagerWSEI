@@ -1,0 +1,153 @@
+### YamlMime:ManagedReference
+items:
+- uid: StudentManager.Core.Utils.ValidatorHelper
+  commentId: T:StudentManager.Core.Utils.ValidatorHelper
+  id: ValidatorHelper
+  parent: StudentManager.Core.Utils
+  children:
+  - StudentManager.Core.Utils.ValidatorHelper.ValidateIntInTextBox(System.Windows.Controls.TextBox,System.Int32@)
+  - StudentManager.Core.Utils.ValidatorHelper.ValidateStringInTextBox(System.Windows.Controls.TextBox)
+  langs:
+  - csharp
+  - vb
+  name: ValidatorHelper
+  nameWithType: ValidatorHelper
+  fullName: StudentManager.Core.Utils.ValidatorHelper
+  type: Class
+  source:
+    remote:
+      path: C:/Users/w.grden.adm/source/repos/StudentManager/StudentManager.Core/Utils/ValidatorHelper.cs
+    id: ValidatorHelper
+    path: Utils/ValidatorHelper.cs
+    startLine: 5
+  assemblies:
+  - StudentManager.Core
+  namespace: StudentManager.Core.Utils
+  syntax:
+    content: 'public static class ValidatorHelper : object'
+    content.vb: >-
+      Public Module ValidatorHelper
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: StudentManager.Core.Utils.ValidatorHelper.ValidateIntInTextBox(System.Windows.Controls.TextBox,System.Int32@)
+  commentId: M:StudentManager.Core.Utils.ValidatorHelper.ValidateIntInTextBox(System.Windows.Controls.TextBox,System.Int32@)
+  id: ValidateIntInTextBox(System.Windows.Controls.TextBox,System.Int32@)
+  parent: StudentManager.Core.Utils.ValidatorHelper
+  langs:
+  - csharp
+  - vb
+  name: ValidateIntInTextBox(TextBox, out Int32)
+  nameWithType: ValidatorHelper.ValidateIntInTextBox(TextBox, out Int32)
+  fullName: StudentManager.Core.Utils.ValidatorHelper.ValidateIntInTextBox(System.Windows.Controls.TextBox, out System.Int32)
+  type: Method
+  source:
+    remote:
+      path: C:/Users/w.grden.adm/source/repos/StudentManager/StudentManager.Core/Utils/ValidatorHelper.cs
+    id: ValidateIntInTextBox
+    path: Utils/ValidatorHelper.cs
+    startLine: 7
+  assemblies:
+  - StudentManager.Core
+  namespace: StudentManager.Core.Utils
+  syntax:
+    content: public static bool ValidateIntInTextBox(TextBox textBox, out int textBoxValue)
+    parameters:
+    - id: textBox
+      type: System.Windows.Controls.TextBox
+    - id: textBoxValue
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function ValidateIntInTextBox(textBox As TextBox, ByRef textBoxValue As Integer) As Boolean
+  overload: StudentManager.Core.Utils.ValidatorHelper.ValidateIntInTextBox*
+  nameWithType.vb: ValidatorHelper.ValidateIntInTextBox(TextBox, ByRef Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: StudentManager.Core.Utils.ValidatorHelper.ValidateIntInTextBox(System.Windows.Controls.TextBox, ByRef System.Int32)
+  name.vb: ValidateIntInTextBox(TextBox, ByRef Int32)
+- uid: StudentManager.Core.Utils.ValidatorHelper.ValidateStringInTextBox(System.Windows.Controls.TextBox)
+  commentId: M:StudentManager.Core.Utils.ValidatorHelper.ValidateStringInTextBox(System.Windows.Controls.TextBox)
+  id: ValidateStringInTextBox(System.Windows.Controls.TextBox)
+  parent: StudentManager.Core.Utils.ValidatorHelper
+  langs:
+  - csharp
+  - vb
+  name: ValidateStringInTextBox(TextBox)
+  nameWithType: ValidatorHelper.ValidateStringInTextBox(TextBox)
+  fullName: StudentManager.Core.Utils.ValidatorHelper.ValidateStringInTextBox(System.Windows.Controls.TextBox)
+  type: Method
+  source:
+    remote:
+      path: C:/Users/w.grden.adm/source/repos/StudentManager/StudentManager.Core/Utils/ValidatorHelper.cs
+    id: ValidateStringInTextBox
+    path: Utils/ValidatorHelper.cs
+    startLine: 17
+  assemblies:
+  - StudentManager.Core
+  namespace: StudentManager.Core.Utils
+  syntax:
+    content: public static bool ValidateStringInTextBox(TextBox textBox)
+    parameters:
+    - id: textBox
+      type: System.Windows.Controls.TextBox
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function ValidateStringInTextBox(textBox As TextBox) As Boolean
+  overload: StudentManager.Core.Utils.ValidatorHelper.ValidateStringInTextBox*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: StudentManager.Core.Utils
+  commentId: N:StudentManager.Core.Utils
+  name: StudentManager.Core.Utils
+  nameWithType: StudentManager.Core.Utils
+  fullName: StudentManager.Core.Utils
+- uid: StudentManager.Core.Utils.ValidatorHelper.ValidateIntInTextBox*
+  commentId: Overload:StudentManager.Core.Utils.ValidatorHelper.ValidateIntInTextBox
+  name: ValidateIntInTextBox
+  nameWithType: ValidatorHelper.ValidateIntInTextBox
+  fullName: StudentManager.Core.Utils.ValidatorHelper.ValidateIntInTextBox
+- uid: System.Windows.Controls.TextBox
+  commentId: T:System.Windows.Controls.TextBox
+  parent: System.Windows.Controls
+  isExternal: true
+  name: TextBox
+  nameWithType: TextBox
+  fullName: System.Windows.Controls.TextBox
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Windows.Controls
+  commentId: N:System.Windows.Controls
+  isExternal: true
+  name: System.Windows.Controls
+  nameWithType: System.Windows.Controls
+  fullName: System.Windows.Controls
+- uid: StudentManager.Core.Utils.ValidatorHelper.ValidateStringInTextBox*
+  commentId: Overload:StudentManager.Core.Utils.ValidatorHelper.ValidateStringInTextBox
+  name: ValidateStringInTextBox
+  nameWithType: ValidatorHelper.ValidateStringInTextBox
+  fullName: StudentManager.Core.Utils.ValidatorHelper.ValidateStringInTextBox

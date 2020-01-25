@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: StudentManager.Core.Utils
+  commentId: N:StudentManager.Core.Utils
+  id: StudentManager.Core.Utils
+  children:
+  - StudentManager.Core.Utils.ValidatorHelper
+  langs:
+  - csharp
+  - vb
+  name: StudentManager.Core.Utils
+  nameWithType: StudentManager.Core.Utils
+  fullName: StudentManager.Core.Utils
+  type: Namespace
+  assemblies:
+  - StudentManager.Core
+references:
+- uid: StudentManager.Core.Utils.ValidatorHelper
+  commentId: T:StudentManager.Core.Utils.ValidatorHelper
+  name: ValidatorHelper
+  nameWithType: ValidatorHelper
+  fullName: StudentManager.Core.Utils.ValidatorHelper

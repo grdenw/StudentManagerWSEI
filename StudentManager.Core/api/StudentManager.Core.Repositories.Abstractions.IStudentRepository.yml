@@ -1,0 +1,363 @@
+### YamlMime:ManagedReference
+items:
+- uid: StudentManager.Core.Repositories.Abstractions.IStudentRepository
+  commentId: T:StudentManager.Core.Repositories.Abstractions.IStudentRepository
+  id: IStudentRepository
+  parent: StudentManager.Core.Repositories.Abstractions
+  children:
+  - StudentManager.Core.Repositories.Abstractions.IStudentRepository.Add(StudentManager.Core.Models.Student)
+  - StudentManager.Core.Repositories.Abstractions.IStudentRepository.Delete(System.Int32)
+  - StudentManager.Core.Repositories.Abstractions.IStudentRepository.Edit(System.Int32,StudentManager.Core.Models.Student)
+  - StudentManager.Core.Repositories.Abstractions.IStudentRepository.GenerateId
+  - StudentManager.Core.Repositories.Abstractions.IStudentRepository.GetAll
+  langs:
+  - csharp
+  - vb
+  name: IStudentRepository
+  nameWithType: IStudentRepository
+  fullName: StudentManager.Core.Repositories.Abstractions.IStudentRepository
+  type: Interface
+  source:
+    remote:
+      path: C:/Users/w.grden.adm/source/repos/StudentManager/StudentManager.Core/Repositories/Abstractions/IStudentRepository.cs
+    id: IStudentRepository
+    path: Repositories/Abstractions/IStudentRepository.cs
+    startLine: 6
+  assemblies:
+  - StudentManager.Core
+  namespace: StudentManager.Core.Repositories.Abstractions
+  syntax:
+    content: public interface IStudentRepository
+    content.vb: Public Interface IStudentRepository
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: StudentManager.Core.Repositories.Abstractions.IStudentRepository.GetAll
+  commentId: M:StudentManager.Core.Repositories.Abstractions.IStudentRepository.GetAll
+  id: GetAll
+  parent: StudentManager.Core.Repositories.Abstractions.IStudentRepository
+  langs:
+  - csharp
+  - vb
+  name: GetAll()
+  nameWithType: IStudentRepository.GetAll()
+  fullName: StudentManager.Core.Repositories.Abstractions.IStudentRepository.GetAll()
+  type: Method
+  source:
+    remote:
+      path: C:/Users/w.grden.adm/source/repos/StudentManager/StudentManager.Core/Repositories/Abstractions/IStudentRepository.cs
+    id: GetAll
+    path: Repositories/Abstractions/IStudentRepository.cs
+    startLine: 8
+  assemblies:
+  - StudentManager.Core
+  namespace: StudentManager.Core.Repositories.Abstractions
+  syntax:
+    content: Task<IEnumerable<Student>> GetAll()
+    return:
+      type: Task{IEnumerable{StudentManager.Core.Models.Student}}
+    content.vb: Function GetAll As Task(Of IEnumerable(Of Student))
+  overload: StudentManager.Core.Repositories.Abstractions.IStudentRepository.GetAll*
+- uid: StudentManager.Core.Repositories.Abstractions.IStudentRepository.Add(StudentManager.Core.Models.Student)
+  commentId: M:StudentManager.Core.Repositories.Abstractions.IStudentRepository.Add(StudentManager.Core.Models.Student)
+  id: Add(StudentManager.Core.Models.Student)
+  parent: StudentManager.Core.Repositories.Abstractions.IStudentRepository
+  langs:
+  - csharp
+  - vb
+  name: Add(Student)
+  nameWithType: IStudentRepository.Add(Student)
+  fullName: StudentManager.Core.Repositories.Abstractions.IStudentRepository.Add(StudentManager.Core.Models.Student)
+  type: Method
+  source:
+    remote:
+      path: C:/Users/w.grden.adm/source/repos/StudentManager/StudentManager.Core/Repositories/Abstractions/IStudentRepository.cs
+    id: Add
+    path: Repositories/Abstractions/IStudentRepository.cs
+    startLine: 9
+  assemblies:
+  - StudentManager.Core
+  namespace: StudentManager.Core.Repositories.Abstractions
+  syntax:
+    content: void Add(Student student)
+    parameters:
+    - id: student
+      type: StudentManager.Core.Models.Student
+    content.vb: Sub Add(student As Student)
+  overload: StudentManager.Core.Repositories.Abstractions.IStudentRepository.Add*
+- uid: StudentManager.Core.Repositories.Abstractions.IStudentRepository.Edit(System.Int32,StudentManager.Core.Models.Student)
+  commentId: M:StudentManager.Core.Repositories.Abstractions.IStudentRepository.Edit(System.Int32,StudentManager.Core.Models.Student)
+  id: Edit(System.Int32,StudentManager.Core.Models.Student)
+  parent: StudentManager.Core.Repositories.Abstractions.IStudentRepository
+  langs:
+  - csharp
+  - vb
+  name: Edit(Int32, Student)
+  nameWithType: IStudentRepository.Edit(Int32, Student)
+  fullName: StudentManager.Core.Repositories.Abstractions.IStudentRepository.Edit(System.Int32, StudentManager.Core.Models.Student)
+  type: Method
+  source:
+    remote:
+      path: C:/Users/w.grden.adm/source/repos/StudentManager/StudentManager.Core/Repositories/Abstractions/IStudentRepository.cs
+    id: Edit
+    path: Repositories/Abstractions/IStudentRepository.cs
+    startLine: 10
+  assemblies:
+  - StudentManager.Core
+  namespace: StudentManager.Core.Repositories.Abstractions
+  syntax:
+    content: void Edit(int studentId, Student student)
+    parameters:
+    - id: studentId
+      type: System.Int32
+    - id: student
+      type: StudentManager.Core.Models.Student
+    content.vb: Sub Edit(studentId As Integer, student As Student)
+  overload: StudentManager.Core.Repositories.Abstractions.IStudentRepository.Edit*
+- uid: StudentManager.Core.Repositories.Abstractions.IStudentRepository.Delete(System.Int32)
+  commentId: M:StudentManager.Core.Repositories.Abstractions.IStudentRepository.Delete(System.Int32)
+  id: Delete(System.Int32)
+  parent: StudentManager.Core.Repositories.Abstractions.IStudentRepository
+  langs:
+  - csharp
+  - vb
+  name: Delete(Int32)
+  nameWithType: IStudentRepository.Delete(Int32)
+  fullName: StudentManager.Core.Repositories.Abstractions.IStudentRepository.Delete(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: C:/Users/w.grden.adm/source/repos/StudentManager/StudentManager.Core/Repositories/Abstractions/IStudentRepository.cs
+    id: Delete
+    path: Repositories/Abstractions/IStudentRepository.cs
+    startLine: 11
+  assemblies:
+  - StudentManager.Core
+  namespace: StudentManager.Core.Repositories.Abstractions
+  syntax:
+    content: void Delete(int studentId)
+    parameters:
+    - id: studentId
+      type: System.Int32
+    content.vb: Sub Delete(studentId As Integer)
+  overload: StudentManager.Core.Repositories.Abstractions.IStudentRepository.Delete*
+- uid: StudentManager.Core.Repositories.Abstractions.IStudentRepository.GenerateId
+  commentId: M:StudentManager.Core.Repositories.Abstractions.IStudentRepository.GenerateId
+  id: GenerateId
+  parent: StudentManager.Core.Repositories.Abstractions.IStudentRepository
+  langs:
+  - csharp
+  - vb
+  name: GenerateId()
+  nameWithType: IStudentRepository.GenerateId()
+  fullName: StudentManager.Core.Repositories.Abstractions.IStudentRepository.GenerateId()
+  type: Method
+  source:
+    remote:
+      path: C:/Users/w.grden.adm/source/repos/StudentManager/StudentManager.Core/Repositories/Abstractions/IStudentRepository.cs
+    id: GenerateId
+    path: Repositories/Abstractions/IStudentRepository.cs
+    startLine: 12
+  assemblies:
+  - StudentManager.Core
+  namespace: StudentManager.Core.Repositories.Abstractions
+  syntax:
+    content: Task<int> GenerateId()
+    return:
+      type: Task{System.Int32}
+    content.vb: Function GenerateId As Task(Of Integer)
+  overload: StudentManager.Core.Repositories.Abstractions.IStudentRepository.GenerateId*
+references:
+- uid: StudentManager.Core.Repositories.Abstractions
+  commentId: N:StudentManager.Core.Repositories.Abstractions
+  name: StudentManager.Core.Repositories.Abstractions
+  nameWithType: StudentManager.Core.Repositories.Abstractions
+  fullName: StudentManager.Core.Repositories.Abstractions
+- uid: StudentManager.Core.Repositories.Abstractions.IStudentRepository.GetAll*
+  commentId: Overload:StudentManager.Core.Repositories.Abstractions.IStudentRepository.GetAll
+  name: GetAll
+  nameWithType: IStudentRepository.GetAll
+  fullName: StudentManager.Core.Repositories.Abstractions.IStudentRepository.GetAll
+- uid: Task{IEnumerable{StudentManager.Core.Models.Student}}
+  commentId: '!:Task{IEnumerable{StudentManager.Core.Models.Student}}'
+  definition: Task`1
+  name: Task<IEnumerable<Student>>
+  nameWithType: Task<IEnumerable<Student>>
+  fullName: Task<IEnumerable<StudentManager.Core.Models.Student>>
+  nameWithType.vb: Task(Of IEnumerable(Of Student))
+  fullName.vb: Task(Of IEnumerable(Of StudentManager.Core.Models.Student))
+  name.vb: Task(Of IEnumerable(Of Student))
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: StudentManager.Core.Models.Student
+    name: Student
+    nameWithType: Student
+    fullName: StudentManager.Core.Models.Student
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: StudentManager.Core.Models.Student
+    name: Student
+    nameWithType: Student
+    fullName: StudentManager.Core.Models.Student
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: StudentManager.Core.Repositories.Abstractions.IStudentRepository.Add*
+  commentId: Overload:StudentManager.Core.Repositories.Abstractions.IStudentRepository.Add
+  name: Add
+  nameWithType: IStudentRepository.Add
+  fullName: StudentManager.Core.Repositories.Abstractions.IStudentRepository.Add
+- uid: StudentManager.Core.Models.Student
+  commentId: T:StudentManager.Core.Models.Student
+  parent: StudentManager.Core.Models
+  name: Student
+  nameWithType: Student
+  fullName: StudentManager.Core.Models.Student
+- uid: StudentManager.Core.Models
+  commentId: N:StudentManager.Core.Models
+  name: StudentManager.Core.Models
+  nameWithType: StudentManager.Core.Models
+  fullName: StudentManager.Core.Models
+- uid: StudentManager.Core.Repositories.Abstractions.IStudentRepository.Edit*
+  commentId: Overload:StudentManager.Core.Repositories.Abstractions.IStudentRepository.Edit
+  name: Edit
+  nameWithType: IStudentRepository.Edit
+  fullName: StudentManager.Core.Repositories.Abstractions.IStudentRepository.Edit
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: StudentManager.Core.Repositories.Abstractions.IStudentRepository.Delete*
+  commentId: Overload:StudentManager.Core.Repositories.Abstractions.IStudentRepository.Delete
+  name: Delete
+  nameWithType: IStudentRepository.Delete
+  fullName: StudentManager.Core.Repositories.Abstractions.IStudentRepository.Delete
+- uid: StudentManager.Core.Repositories.Abstractions.IStudentRepository.GenerateId*
+  commentId: Overload:StudentManager.Core.Repositories.Abstractions.IStudentRepository.GenerateId
+  name: GenerateId
+  nameWithType: IStudentRepository.GenerateId
+  fullName: StudentManager.Core.Repositories.Abstractions.IStudentRepository.GenerateId
+- uid: Task{System.Int32}
+  commentId: '!:Task{System.Int32}'
+  definition: Task`1
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: Task(Of System.Int32)
+  name.vb: Task(Of Int32)
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

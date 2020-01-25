@@ -1,0 +1,21 @@
+### YamlMime:TableOfContent
+- uid: StudentManager.Core.Models
+  name: StudentManager.Core.Models
+  items:
+  - uid: StudentManager.Core.Models.Student
+    name: Student
+- uid: StudentManager.Core.Repositories.Abstractions
+  name: StudentManager.Core.Repositories.Abstractions
+  items:
+  - uid: StudentManager.Core.Repositories.Abstractions.IStudentRepository
+    name: IStudentRepository
+- uid: StudentManager.Core.Repositories.Implementations
+  name: StudentManager.Core.Repositories.Implementations
+  items:
+  - uid: StudentManager.Core.Repositories.Implementations.StudentCsvRepository
+    name: StudentCsvRepository
+- uid: StudentManager.Core.Utils
+  name: StudentManager.Core.Utils
+  items:
+  - uid: StudentManager.Core.Utils.ValidatorHelper
+    name: ValidatorHelper
